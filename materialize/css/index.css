@@ -1,3 +1,13 @@
 .pl15 {
     padding-left: 15px;
 }
+
+.checkbox-color[type="checkbox"].filled-in:checked + label:after{
+    border: 2px solid #4a148c;
+    background-color: #4a148c;
+}
+
+.mb0 {
+    margin-bottom: 0;
+}
+
