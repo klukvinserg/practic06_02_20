@@ -2,12 +2,47 @@
     padding-left: 15px;
 }
 
-.checkbox-color[type="checkbox"].filled-in:checked + label:after{
-    border: 2px solid #4a148c;
-    background-color: #4a148c;
-}
-
 .mb0 {
     margin-bottom: 0;
 }
 
+.row .col {
+    float: none;
+    margin: auto;
+}
+
+[type="checkbox"].filled-in:checked+label:after {
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #4a148c;
+    background-color: #4a148c;
+    z-index: 0;
+}
+
+.input-field input[type]:not([readonly]), .input-field input[type]:focus:not([readonly]) {
+    border-bottom: 1px solid #4a148c;
+    box-shadow: 0 1px 0 0 #4a148c;
+}
+
+.input-field input[type]:focus:not([readonly])+label {
+    color: #4a148c;
+}
+
+.input-field input[type].invalid, .input-field input[type].invalid:focus {
+    border-bottom: 1px solid #e57373;
+    box-shadow: 0 1px 0 0 #e57373;
+}
+
+.input-field input[type].invalid:focus+label, .input-field input[type].invalid~.helper-text::after, .input-field input[type].invalid:focus~.helper-text::after {
+    color: #e57373;
+}
+
+.input-field input[type].valid, .input-field input[type].valid:focus {
+    border-bottom: 1px solid #4a148c;
+    box-shadow: 0 1px 0 0 #4a148c;
+}
+
+.input-field input[type].valid:focus+label, .input-field input[type].valid~.helper-text::after, .input-field input[type].valid:focus~.helper-text::after {
+    color: #4a148c;
+}
