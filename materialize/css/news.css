@@ -1,0 +1,118 @@
+.pl15 {
+    padding-left: 15px;
+}
+
+.mb0 {
+    margin-bottom: 0;
+}
+
+.avatar {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.right {
+    margin-right: 15px;
+}
+
+.span-weight {
+    font-weight: bold;
+}
+
+.container .row {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+}
+
+.friend {
+    margin: auto;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.input-field input[type]:not([readonly]), .input-field input[type]:focus:not([readonly]) {
+    border-bottom: 1px solid grey;
+    box-shadow: 0 1px 0 0 grey;
+}
+
+.input-field input[type]:focus:not([readonly])+label {
+    color: grey;
+}
+
+.input-field input[type].valid, .input-field input[type].valid:focus {
+    border-bottom: 1px solid grey;
+    box-shadow: 0 1px 0 0 grey;
+}
+
+.input-field input[type].valid:focus+label, .input-field input[type].valid~.helper-text::after, .input-field input[type].valid:focus~.helper-text::after {
+    color: grey;
+}
+
+.content-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top > p {
+    font-size: 26px;
+    margin-left: 20px;
+}
+
+.collection {
+    border: transparent;
+}
+
+.collection .collection-item {
+    border: transparent;
+}
+
+.collection .collection-item.active {
+    background-color: #e0e0e0;
+    color: #e0e0e0;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.mt0 {
+    margin-top: 0;
+}
+
+.one > img {
+    width: 100%;
+}
+
+.card.horizontal .card-image {
+    max-width: 100%;
+}
+
+.card-title {
+    opacity: 80%;
+}
+
+.card-title > p {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.p075 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.card .card-image .card-title {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
