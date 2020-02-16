@@ -1,0 +1,157 @@
+.pl15 {
+    padding-left: 15px;
+}
+
+.mb0 {
+    margin-bottom: 0;
+}
+
+.avatar {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.right {
+    margin-right: 15px;
+}
+
+.span-weight {
+    font-weight: bold;
+}
+
+.container .row {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+}
+
+.friend {
+    margin: auto;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.content-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+}
+
+.top > p {
+    font-size: 26px;
+    margin-left: 20px;
+}
+
+.collection {
+    border: transparent;
+}
+
+.collection .collection-item {
+    border: transparent;
+}
+
+.collection .collection-item.active {
+    background-color: #e0e0e0;
+    color: #e0e0e0;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card-action-button > a {
+    width: 100%;
+    margin: auto;
+}
+
+.btn {
+    padding: 0;
+}
+
+.friend-card {
+    text-align: center;
+}
+
+.friend-card > img {
+    width: 80%;
+}
+
+.friend-card > p {
+    margin-top: 0;
+}
+
+.text-friend {
+    font-size: 18px;
+}
+
+.card-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.card-action-text {
+    text-align: center;
+    margin: auto;
+}
+
+.card-action-text > p {
+    text-transform: none;
+    color: #039be5;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.card-action > div {
+    margin-bottom: 0;
+}
+
+.line {
+    display: flex;
+    justify-content: start;
+}
+
+.line> a > p {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 1200px) {
+    .column-top {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .column-top-inner {
+        text-align: center;
+        width: 100%;
+    }
+
+    .line {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 992px) {
+    .column-top {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .line {
+        flex-direction: row;
+    }
+
+}

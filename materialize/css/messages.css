@@ -1,0 +1,174 @@
+.pl15 {
+    padding-left: 15px;
+}
+
+.mb0 {
+    margin-bottom: 0;
+}
+
+.avatar {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.right {
+    margin-right: 15px;
+}
+
+.span-weight {
+    font-weight: bold;
+}
+
+.container .row {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+}
+
+.friend {
+    margin: auto;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.content-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+}
+
+.top > p {
+    font-size: 26px;
+    margin-left: 20px;
+}
+
+.collection {
+    border: transparent;
+}
+
+.collection .collection-item {
+    border: transparent;
+}
+
+.collection .collection-item.active {
+    background-color: #e0e0e0;
+    color: #e0e0e0;
+}
+
+.border-yes {
+    border: 1px solid #e0e0e0;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    font-weight: bold;
+}
+
+.border-yes .collection-item {
+    border: 1px solid #e0e0e0;
+    border-left: none;
+    border-right: none;
+}
+
+.collection a.collection-item {
+    color: #039be5;
+}
+
+.collection a.collection-item .color-black {
+    color: black;
+    font-weight: bold;
+}
+
+.border-yes .bt0 {
+    border-top: none;
+}
+
+.collection a.one:not(.active):hover {
+    background-color: #039be5;
+    color: white;
+}
+
+.collection a.collection-item:hover .color-black {
+    color: white;
+}
+
+.collection .one.active {
+    background-color: #039be5;
+    color: white;
+}
+
+.row .col.s4 {
+    padding-left: 0;
+    border-left: none;
+    padding-right: 0;
+}
+
+.bl0 {
+    border-left: none;
+}
+
+.btn {
+    padding: 0;
+}
+
+.name {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.message-center {
+    text-align: center;
+}
+
+.name-message {
+    margin-top: 2px;
+}
+
+.time {
+    color: gray;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.message-send {
+    display: flex;
+    align-items: center;
+}
+
+.input-field input[type]:not([readonly]), .input-field input[type]:focus:not([readonly]) {
+    border-bottom: 1px solid grey;
+    box-shadow: 0 1px 0 0 grey;
+}
+
+.input-field input[type]:focus:not([readonly])+label {
+    color: grey;
+}
+
+.input-field input[type].valid, .input-field input[type].valid:focus {
+    border-bottom: 1px solid grey;
+    box-shadow: 0 1px 0 0 grey;
+}
+
+.input-field input[type].valid:focus+label, .input-field input[type].valid~.helper-text::after, .input-field input[type].valid:focus~.helper-text::after {
+    color: grey;
+}
+
+@media (max-width: 992px) {
+    .column {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .ma {
+        margin: auto;
+    }
+}
